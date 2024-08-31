@@ -10,7 +10,7 @@ function ClientProjectsPage() {
     router.push({
       pathname: '/clients/[id]/[clientprojectid]',
       query: { id: 'max', clientprojectid: 'projecta' },
-    });
+    }); // redirect client to where?
   }
 
   return (
